@@ -1,0 +1,12 @@
+[package]
+name = "encr"
+version = "0.1.0"
+authors = ["lucashorward <lucas.horward@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aes-gcm-siv = "0.4.1"
+aead = {version = "0.2", default-features = false }
+rand = "0.7.3"
